@@ -7,7 +7,7 @@
 
 <div align="center">
     <h3>A Passionate Computer Science Student & Aspiring Full-Stack Software Engineer</h3>
-    <p>The ever-evolving landscape of technology 🌐 has always intrigued me, driving my choice to pursue a career in software engineering. Currently pursuing my Computer Science degree at IIT Sri Lanka affaliated with UOW and sharpening my technical application skills at ICET, I love building digital experiences. I am dedicated to exploring modern tech stacks 💻 and leveraging them to build scalable, innovative solutions 🛠️.</p>
+    <p>The ever-evolving landscape of technology 🌐 has always intrigued me, driving my choice to pursue a career in software engineering. Currently pursuing my Computer Science degree at IIT Sri Lanka affaliated with UOW and studying software Engineering at ICET(iCD 124), I love building digital experiences. I am dedicated to exploring modern tech stacks 💻 and leveraging them to build scalable, innovative solutions 🛠️.</p>
 </div>
 
 <br>
