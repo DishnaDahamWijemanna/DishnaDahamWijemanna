@@ -30,7 +30,7 @@
 
 <img align="right" height="220px" alt="GIF" src="https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif" />
 
-- 🎓 **Education:** Computer Science Student at **IIT** [2025–2029] & **ICET**.
+- 🎓 **Education:** Computer Science Student at **IIT Sri Lanka affiliated with University of Westminster** [2025–2029] & Software engineering at **ICET**.
 - 👷 **Working on:** Bridging academic theory with core full-stack software development skills.
 - 🧑‍🤝‍🧑 **Collaborating on:** Web engineering, architecture, and UI/UX design components.
 - 🤝 **Open to:** Challenging coding projects, hackathons, and innovative open-source contributions.
