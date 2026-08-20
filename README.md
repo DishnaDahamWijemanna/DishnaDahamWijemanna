@@ -82,10 +82,9 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DishnaDahamWijemanna/DishnaDahamWijemanna/main/profile-activity-graph.svg" width="100%" alt="Activity Graph"/>
-</p>
-
+   <p align="center">
+     <img src="https://raw.githubusercontent.com/DishnaDahamWijemanna/DishnaDahamWijemanna/main/profile-activity-graph.svg" width="100%" alt="Activity Graph"/>
+   </p>
 <br>
 
 ## 🔗 Connect With Me
