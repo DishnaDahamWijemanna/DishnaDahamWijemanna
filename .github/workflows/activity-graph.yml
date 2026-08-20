@@ -14,14 +14,16 @@ jobs:
       - uses: actions/checkout@v4
       - uses: maurodesouza/github-readme-activity-graph-action@main
         with:
+          username: DishnaDahamWijemanna
           token: ${{ secrets.GITHUB_TOKEN }}
-          output_filepath: ./profile-activity-graph.svg
-          bg_color: "0D1117"
-          color: "00D4FF"
-          line: "00D4FF"
-          point: "ffffff"
-          hide_border: "true"
-          area: "true"
+          output_path: ./profile-activity-graph.svg
+          options: |
+            bg_color=0D1117
+            color=00D4FF
+            line=00D4FF
+            point=ffffff
+            hide_border=true
+            area=true
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update activity graph"
