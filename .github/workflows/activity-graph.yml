@@ -4,17 +4,15 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-activity-graph
     steps:
       - uses: actions/checkout@v4
-      - uses: maurodesouza/github-readme-activity-graph-action@v2
+      - uses: maurodesouza/github-readme-activity-graph-action@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           output_filepath: ./profile-activity-graph.svg
