@@ -1,0 +1,27 @@
+name: Generate Activity Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-activity-graph
+    steps:
+      - uses: actions/checkout@v3
+      - uses: maurodesouza/github-readme-activity-graph-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output_filepath: ./profile-activity-graph.svg
+          bg_color: "0D1117"
+          color: "00D4FF"
+          line: "00D4FF"
+          point: "ffffff"
+          hide_border: "true"
+          area: "true"
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update activity graph"
+          file_pattern: "profile-activity-graph.svg"
