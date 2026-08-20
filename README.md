@@ -83,7 +83,7 @@
 </p>
 
    <p align="center">
-     <img src="https://raw.githubusercontent.com/DishnaDahamWijemanna/DishnaDahamWijemanna/main/profile-activity-graph.svg" width="100%" alt="Activity Graph"/>
+     <img src="https://raw.githubusercontent.com/DishnaDahamWijemanna/DishnaDahamWijemanna/main/profile-activity-graph.svg" style="max-width: 100%; height: auto;" alt="Activity Graph"/>
    </p>
 <br>
 
