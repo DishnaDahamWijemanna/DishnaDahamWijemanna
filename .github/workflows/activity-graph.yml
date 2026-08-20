@@ -17,15 +17,7 @@ jobs:
           username: DishnaDahamWijemanna
           token: ${{ secrets.GITHUB_TOKEN }}
           output_path: ./profile-activity-graph.svg
-          options: |
-            bg_color=0D1117
-            color=6C5CE7
-            line=6C5CE7
-            point=ffffff
-            area_color=6C5CE7
-            hide_border=true
-            area=true
-            custom_title=Dishna's Contribution Activity
+          options: bg_color=0D1117,color=3B82F6,line=3B82F6,point=ffffff,hide_border=true,area=true,custom_title=Dishna's Contribution Activity
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update activity graph"
